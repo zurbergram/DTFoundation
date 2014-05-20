@@ -37,7 +37,7 @@
 
 + (DTCustomColoredAccessory *)squareAccessoryWithColor:(UIColor *)color backgroundColor:(UIColor *)backgroundColor
 {
-	DTCustomColoredAccessory *ret = [[[DTCustomColoredAccessory alloc] initWithFrame:CGRectMake(0, 0, 15.0, 15.0)]autorelease];
+	DTCustomColoredAccessory *ret = [[DTCustomColoredAccessory alloc] initWithFrame:CGRectMake(0, 0, 15.0, 15.0)];
 	ret.accessoryColor = color;
     ret.frontSquareAccessoryColor = color;
     ret.type = DTCustomColoredAccessoryTypeSquare;
